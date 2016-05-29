@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5148C676226C4C0C27E7543B /* libPods-仿爱限免.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F394781F6D3A53B37B0ED96 /* libPods-仿爱限免.a */; };
+		9C3C62ED1CE06A4E0061B38A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3C62EC1CE06A4E0061B38A /* Assets.xcassets */; };
+		9C3C63231CE077360061B38A /* YKLimitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C63221CE077360061B38A /* YKLimitViewController.m */; };
+		9C3C63261CE077560061B38A /* YKSaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C63251CE077560061B38A /* YKSaleViewController.m */; };
+		9C3C63291CE077640061B38A /* YKFreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C63281CE077640061B38A /* YKFreeViewController.m */; };
+		9C3C632C1CE078170061B38A /* YKSpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C632B1CE078170061B38A /* YKSpecialViewController.m */; };
+		9C3C632F1CE0782A0061B38A /* YKHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C632E1CE0782A0061B38A /* YKHotViewController.m */; };
+		9C40ACEA1CF7EE2200AF23DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C40ACE91CF7EE2200AF23DE /* Default-568h@2x.png */; };
+		9C54591C1CED8CA30009B8A7 /* YKSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C54591B1CED8CA30009B8A7 /* YKSetViewController.m */; };
+		9C5459221CED8D1D0009B8A7 /* YKMyFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5459211CED8D1D0009B8A7 /* YKMyFollowViewController.m */; };
+		9C5459251CED8D5A0009B8A7 /* YKMyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5459241CED8D5A0009B8A7 /* YKMyAccountViewController.m */; };
+		9C5459281CED8D8F0009B8A7 /* YKMyFavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5459271CED8D8F0009B8A7 /* YKMyFavViewController.m */; };
+		9C54592B1CED8DAB0009B8A7 /* YKMyDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C54592A1CED8DAB0009B8A7 /* YKMyDownViewController.m */; };
+		9C5459311CED8E0C0009B8A7 /* YKMyHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5459301CED8E0C0009B8A7 /* YKMyHelpViewController.m */; };
+		9C5459341CED8E210009B8A7 /* YKCanDouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5459331CED8E210009B8A7 /* YKCanDouViewController.m */; };
+		9C54593D1CEDB5330009B8A7 /* YKMySetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C54593C1CEDB5330009B8A7 /* YKMySetViewController.m */; };
+		9C66E0781CF53FE0000849E4 /* YKScrollPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C66E0771CF53FE0000849E4 /* YKScrollPagingView.m */; };
+		9C8FD3F71CE2D6F90025637A /* YKUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FD3F61CE2D6F90025637A /* YKUtility.m */; };
+		9C8FD3FC1CE2D7320025637A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FD3FA1CE2D7320025637A /* AppDelegate.m */; };
+		9C8FD3FD1CE2D7320025637A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FD3FB1CE2D7320025637A /* main.m */; };
+		9C8FD4081CE2DA770025637A /* YKFenleiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FD4011CE2DA770025637A /* YKFenleiViewController.m */; };
+		9C8FD4091CE2DA770025637A /* YKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FD4031CE2DA770025637A /* YKRootViewController.m */; };
+		9C8FD4141CE2E3B80025637A /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FD4131CE2E3B80025637A /* NSDate+Extension.m */; };
+		9C8FD4201CE2FC4B0025637A /* YKIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FD41F1CE2FC4B0025637A /* YKIconView.m */; };
+		9C8FD4251CE2FDCF0025637A /* NSString+YKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FD4221CE2FDCF0025637A /* NSString+YKExtension.m */; };
+		9C8FD4261CE2FDCF0025637A /* UIView+YKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FD4241CE2FDCF0025637A /* UIView+YKExtension.m */; };
+		9CAE5BC81CE5A3BC00240376 /* YKStatusFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE5BC71CE5A3BC00240376 /* YKStatusFrame.m */; };
+		9CAE5BCB1CE5AB1300240376 /* YKStatusViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE5BCA1CE5AB1300240376 /* YKStatusViewCell.m */; };
+		9CB986E81CE707070008799D /* YKStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB986E71CE707070008799D /* YKStarView.m */; };
+		9CB986EB1CE707130008799D /* YKStatuses.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB986EA1CE707130008799D /* YKStatuses.m */; };
+		9CB986F41CE71CC40008799D /* YKSaleStatusFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB986F31CE71CC40008799D /* YKSaleStatusFrame.m */; };
+		9CB986F71CE71CCE0008799D /* YKSaleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB986F61CE71CCE0008799D /* YKSaleTableViewCell.m */; };
+		9CB986FA1CE71F0D0008799D /* YKFreeStatusFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB986F91CE71F0D0008799D /* YKFreeStatusFrame.m */; };
+		9CB986FD1CE7208A0008799D /* YKFreeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB986FC1CE7208A0008799D /* YKFreeViewCell.m */; };
+		9CBBFEA51CE76026001588F9 /* YKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBFEA41CE76026001588F9 /* YKDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F394781F6D3A53B37B0ED96 /* libPods-仿爱限免.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-仿爱限免.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2021C64A40B57412944B8776 /* Pods-仿爱限免.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿爱限免.release.xcconfig"; path = "Pods/Target Support Files/Pods-仿爱限免/Pods-仿爱限免.release.xcconfig"; sourceTree = "<group>"; };
+		9C3C62DD1CE06A4E0061B38A /* 仿爱限免.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿爱限免.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3C62EC1CE06A4E0061B38A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C3C62F11CE06A4E0061B38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3C63211CE077360061B38A /* YKLimitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKLimitViewController.h; sourceTree = "<group>"; };
+		9C3C63221CE077360061B38A /* YKLimitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKLimitViewController.m; sourceTree = "<group>"; };
+		9C3C63241CE077560061B38A /* YKSaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSaleViewController.h; sourceTree = "<group>"; };
+		9C3C63251CE077560061B38A /* YKSaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSaleViewController.m; sourceTree = "<group>"; };
+		9C3C63271CE077640061B38A /* YKFreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKFreeViewController.h; sourceTree = "<group>"; };
+		9C3C63281CE077640061B38A /* YKFreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKFreeViewController.m; sourceTree = "<group>"; };
+		9C3C632A1CE078170061B38A /* YKSpecialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSpecialViewController.h; sourceTree = "<group>"; };
+		9C3C632B1CE078170061B38A /* YKSpecialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSpecialViewController.m; sourceTree = "<group>"; };
+		9C3C632D1CE0782A0061B38A /* YKHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKHotViewController.h; sourceTree = "<group>"; };
+		9C3C632E1CE0782A0061B38A /* YKHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKHotViewController.m; sourceTree = "<group>"; };
+		9C3C63341CE097AC0061B38A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9C40ACE91CF7EE2200AF23DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		9C54591A1CED8CA30009B8A7 /* YKSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSetViewController.h; sourceTree = "<group>"; };
+		9C54591B1CED8CA30009B8A7 /* YKSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSetViewController.m; sourceTree = "<group>"; };
+		9C5459201CED8D1D0009B8A7 /* YKMyFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMyFollowViewController.h; sourceTree = "<group>"; };
+		9C5459211CED8D1D0009B8A7 /* YKMyFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMyFollowViewController.m; sourceTree = "<group>"; };
+		9C5459231CED8D5A0009B8A7 /* YKMyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMyAccountViewController.h; sourceTree = "<group>"; };
+		9C5459241CED8D5A0009B8A7 /* YKMyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMyAccountViewController.m; sourceTree = "<group>"; };
+		9C5459261CED8D8F0009B8A7 /* YKMyFavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMyFavViewController.h; sourceTree = "<group>"; };
+		9C5459271CED8D8F0009B8A7 /* YKMyFavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMyFavViewController.m; sourceTree = "<group>"; };
+		9C5459291CED8DAB0009B8A7 /* YKMyDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMyDownViewController.h; sourceTree = "<group>"; };
+		9C54592A1CED8DAB0009B8A7 /* YKMyDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMyDownViewController.m; sourceTree = "<group>"; };
+		9C54592F1CED8E0C0009B8A7 /* YKMyHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMyHelpViewController.h; sourceTree = "<group>"; };
+		9C5459301CED8E0C0009B8A7 /* YKMyHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMyHelpViewController.m; sourceTree = "<group>"; };
+		9C5459321CED8E210009B8A7 /* YKCanDouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKCanDouViewController.h; sourceTree = "<group>"; };
+		9C5459331CED8E210009B8A7 /* YKCanDouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKCanDouViewController.m; sourceTree = "<group>"; };
+		9C54593B1CEDB5330009B8A7 /* YKMySetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMySetViewController.h; sourceTree = "<group>"; };
+		9C54593C1CEDB5330009B8A7 /* YKMySetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMySetViewController.m; sourceTree = "<group>"; };
+		9C66E0761CF53FE0000849E4 /* YKScrollPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKScrollPagingView.h; sourceTree = "<group>"; };
+		9C66E0771CF53FE0000849E4 /* YKScrollPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKScrollPagingView.m; sourceTree = "<group>"; };
+		9C8FD3F51CE2D6F90025637A /* YKUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKUtility.h; sourceTree = "<group>"; };
+		9C8FD3F61CE2D6F90025637A /* YKUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKUtility.m; sourceTree = "<group>"; };
+		9C8FD3F91CE2D7320025637A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C8FD3FA1CE2D7320025637A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C8FD3FB1CE2D7320025637A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C8FD4001CE2DA770025637A /* YKFenleiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKFenleiViewController.h; sourceTree = "<group>"; };
+		9C8FD4011CE2DA770025637A /* YKFenleiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKFenleiViewController.m; sourceTree = "<group>"; };
+		9C8FD4021CE2DA770025637A /* YKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKRootViewController.h; sourceTree = "<group>"; };
+		9C8FD4031CE2DA770025637A /* YKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKRootViewController.m; sourceTree = "<group>"; };
+		9C8FD4121CE2E3B80025637A /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		9C8FD4131CE2E3B80025637A /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		9C8FD41E1CE2FC4B0025637A /* YKIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKIconView.h; sourceTree = "<group>"; };
+		9C8FD41F1CE2FC4B0025637A /* YKIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKIconView.m; sourceTree = "<group>"; };
+		9C8FD4211CE2FDCF0025637A /* NSString+YKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YKExtension.h"; sourceTree = "<group>"; };
+		9C8FD4221CE2FDCF0025637A /* NSString+YKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YKExtension.m"; sourceTree = "<group>"; };
+		9C8FD4231CE2FDCF0025637A /* UIView+YKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YKExtension.h"; sourceTree = "<group>"; };
+		9C8FD4241CE2FDCF0025637A /* UIView+YKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YKExtension.m"; sourceTree = "<group>"; };
+		9CAE5BC61CE5A3BC00240376 /* YKStatusFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKStatusFrame.h; sourceTree = "<group>"; };
+		9CAE5BC71CE5A3BC00240376 /* YKStatusFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKStatusFrame.m; sourceTree = "<group>"; };
+		9CAE5BC91CE5AB1300240376 /* YKStatusViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKStatusViewCell.h; sourceTree = "<group>"; };
+		9CAE5BCA1CE5AB1300240376 /* YKStatusViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKStatusViewCell.m; sourceTree = "<group>"; };
+		9CB986E61CE707070008799D /* YKStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKStarView.h; sourceTree = "<group>"; };
+		9CB986E71CE707070008799D /* YKStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKStarView.m; sourceTree = "<group>"; };
+		9CB986E91CE707130008799D /* YKStatuses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKStatuses.h; sourceTree = "<group>"; };
+		9CB986EA1CE707130008799D /* YKStatuses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKStatuses.m; sourceTree = "<group>"; };
+		9CB986F21CE71CC40008799D /* YKSaleStatusFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSaleStatusFrame.h; sourceTree = "<group>"; };
+		9CB986F31CE71CC40008799D /* YKSaleStatusFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSaleStatusFrame.m; sourceTree = "<group>"; };
+		9CB986F51CE71CCE0008799D /* YKSaleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSaleTableViewCell.h; sourceTree = "<group>"; };
+		9CB986F61CE71CCE0008799D /* YKSaleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSaleTableViewCell.m; sourceTree = "<group>"; };
+		9CB986F81CE71F0D0008799D /* YKFreeStatusFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKFreeStatusFrame.h; sourceTree = "<group>"; };
+		9CB986F91CE71F0D0008799D /* YKFreeStatusFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKFreeStatusFrame.m; sourceTree = "<group>"; };
+		9CB986FB1CE7208A0008799D /* YKFreeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKFreeViewCell.h; sourceTree = "<group>"; };
+		9CB986FC1CE7208A0008799D /* YKFreeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKFreeViewCell.m; sourceTree = "<group>"; };
+		9CBBFEA31CE76026001588F9 /* YKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKDetailViewController.h; sourceTree = "<group>"; };
+		9CBBFEA41CE76026001588F9 /* YKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKDetailViewController.m; sourceTree = "<group>"; };
+		F6349980FFC1B7094BDDFB52 /* Pods-仿爱限免.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿爱限免.debug.xcconfig"; path = "Pods/Target Support Files/Pods-仿爱限免/Pods-仿爱限免.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C3C62DA1CE06A4E0061B38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5148C676226C4C0C27E7543B /* libPods-仿爱限免.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3AF9CEEF547F78DFE66672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F394781F6D3A53B37B0ED96 /* libPods-仿爱限免.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C3C62D41CE06A4E0061B38A = {
+			isa = PBXGroup;
+			children = (
+				9C3C62DF1CE06A4E0061B38A /* 仿爱限免 */,
+				9C3C62DE1CE06A4E0061B38A /* Products */,
+				EFFD96A4C26DE9A8CF926B59 /* Pods */,
+				4A3AF9CEEF547F78DFE66672 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C3C62DE1CE06A4E0061B38A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C62DD1CE06A4E0061B38A /* 仿爱限免.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C3C62DF1CE06A4E0061B38A /* 仿爱限免 */ = {
+			isa = PBXGroup;
+			children = (
+				9C5459191CED8C650009B8A7 /* Seting(设置) */,
+				9C8FD3F41CE2D6F90025637A /* Until(工具类) */,
+				9C8FD3FE1CE2DA770025637A /* Common(公用类) */,
+				9C3C63061CE06C760061B38A /* Limit free(限免) */,
+				9C3C630A1CE06C760061B38A /* Sale(降价) */,
+				9C3C62FE1CE06C760061B38A /* Free(免费) */,
+				9C3C630E1CE06C760061B38A /* Special(专题) */,
+				9C3C63021CE06C760061B38A /* Hot list(热榜) */,
+				9C8FD3F81CE2D7320025637A /* Other */,
+				9C3C62E01CE06A4E0061B38A /* Supporting Files */,
+			);
+			path = "仿爱限免";
+			sourceTree = "<group>";
+		};
+		9C3C62E01CE06A4E0061B38A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C63341CE097AC0061B38A /* PrefixHeader.pch */,
+				9C40ACE91CF7EE2200AF23DE /* Default-568h@2x.png */,
+				9C3C62EC1CE06A4E0061B38A /* Assets.xcassets */,
+				9C3C62F11CE06A4E0061B38A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C3C62FE1CE06C760061B38A /* Free(免费) */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C62FF1CE06C760061B38A /* Controller */,
+				9C3C63001CE06C760061B38A /* Model */,
+				9C3C63011CE06C760061B38A /* View */,
+			);
+			path = "Free(免费)";
+			sourceTree = "<group>";
+		};
+		9C3C62FF1CE06C760061B38A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C63271CE077640061B38A /* YKFreeViewController.h */,
+				9C3C63281CE077640061B38A /* YKFreeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C3C63001CE06C760061B38A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CB986F81CE71F0D0008799D /* YKFreeStatusFrame.h */,
+				9CB986F91CE71F0D0008799D /* YKFreeStatusFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C3C63011CE06C760061B38A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CB986FB1CE7208A0008799D /* YKFreeViewCell.h */,
+				9CB986FC1CE7208A0008799D /* YKFreeViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C3C63021CE06C760061B38A /* Hot list(热榜) */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C63031CE06C760061B38A /* Controller */,
+				9C3C63041CE06C760061B38A /* Model */,
+				9C3C63051CE06C760061B38A /* View */,
+			);
+			path = "Hot list(热榜)";
+			sourceTree = "<group>";
+		};
+		9C3C63031CE06C760061B38A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C632D1CE0782A0061B38A /* YKHotViewController.h */,
+				9C3C632E1CE0782A0061B38A /* YKHotViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C3C63041CE06C760061B38A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C3C63051CE06C760061B38A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C3C63061CE06C760061B38A /* Limit free(限免) */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C63071CE06C760061B38A /* Controller */,
+				9C3C63081CE06C760061B38A /* Model */,
+				9C3C63091CE06C760061B38A /* View */,
+			);
+			path = "Limit free(限免)";
+			sourceTree = "<group>";
+		};
+		9C3C63071CE06C760061B38A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C63211CE077360061B38A /* YKLimitViewController.h */,
+				9C3C63221CE077360061B38A /* YKLimitViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C3C63081CE06C760061B38A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CAE5BC61CE5A3BC00240376 /* YKStatusFrame.h */,
+				9CAE5BC71CE5A3BC00240376 /* YKStatusFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C3C63091CE06C760061B38A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CAE5BC91CE5AB1300240376 /* YKStatusViewCell.h */,
+				9CAE5BCA1CE5AB1300240376 /* YKStatusViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C3C630A1CE06C760061B38A /* Sale(降价) */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C630B1CE06C760061B38A /* Controller */,
+				9C3C630C1CE06C760061B38A /* Model */,
+				9C3C630D1CE06C760061B38A /* View */,
+			);
+			path = "Sale(降价)";
+			sourceTree = "<group>";
+		};
+		9C3C630B1CE06C760061B38A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C63241CE077560061B38A /* YKSaleViewController.h */,
+				9C3C63251CE077560061B38A /* YKSaleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C3C630C1CE06C760061B38A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CB986F21CE71CC40008799D /* YKSaleStatusFrame.h */,
+				9CB986F31CE71CC40008799D /* YKSaleStatusFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C3C630D1CE06C760061B38A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CB986F51CE71CCE0008799D /* YKSaleTableViewCell.h */,
+				9CB986F61CE71CCE0008799D /* YKSaleTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C3C630E1CE06C760061B38A /* Special(专题) */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C630F1CE06C760061B38A /* Controller */,
+				9C3C63101CE06C760061B38A /* Model */,
+				9C3C63111CE06C760061B38A /* View */,
+			);
+			path = "Special(专题)";
+			sourceTree = "<group>";
+		};
+		9C3C630F1CE06C760061B38A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C632A1CE078170061B38A /* YKSpecialViewController.h */,
+				9C3C632B1CE078170061B38A /* YKSpecialViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C3C63101CE06C760061B38A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C3C63111CE06C760061B38A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C5459191CED8C650009B8A7 /* Seting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				9C66E0751CF53FA5000849E4 /* View */,
+				9C5459351CED9C350009B8A7 /* Controller */,
+			);
+			name = "Seting(设置)";
+			path = Seting;
+			sourceTree = "<group>";
+		};
+		9C5459351CED9C350009B8A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C54591A1CED8CA30009B8A7 /* YKSetViewController.h */,
+				9C54591B1CED8CA30009B8A7 /* YKSetViewController.m */,
+				9C54593B1CEDB5330009B8A7 /* YKMySetViewController.h */,
+				9C54593C1CEDB5330009B8A7 /* YKMySetViewController.m */,
+				9C5459201CED8D1D0009B8A7 /* YKMyFollowViewController.h */,
+				9C5459211CED8D1D0009B8A7 /* YKMyFollowViewController.m */,
+				9C5459231CED8D5A0009B8A7 /* YKMyAccountViewController.h */,
+				9C5459241CED8D5A0009B8A7 /* YKMyAccountViewController.m */,
+				9C5459261CED8D8F0009B8A7 /* YKMyFavViewController.h */,
+				9C5459271CED8D8F0009B8A7 /* YKMyFavViewController.m */,
+				9C5459291CED8DAB0009B8A7 /* YKMyDownViewController.h */,
+				9C54592A1CED8DAB0009B8A7 /* YKMyDownViewController.m */,
+				9C54592F1CED8E0C0009B8A7 /* YKMyHelpViewController.h */,
+				9C5459301CED8E0C0009B8A7 /* YKMyHelpViewController.m */,
+				9C5459321CED8E210009B8A7 /* YKCanDouViewController.h */,
+				9C5459331CED8E210009B8A7 /* YKCanDouViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9C66E0751CF53FA5000849E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C66E0761CF53FE0000849E4 /* YKScrollPagingView.h */,
+				9C66E0771CF53FE0000849E4 /* YKScrollPagingView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9C8FD3F41CE2D6F90025637A /* Until(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				9C8FD3F51CE2D6F90025637A /* YKUtility.h */,
+				9C8FD3F61CE2D6F90025637A /* YKUtility.m */,
+			);
+			path = "Until(工具类)";
+			sourceTree = "<group>";
+		};
+		9C8FD3F81CE2D7320025637A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9C8FD3F91CE2D7320025637A /* AppDelegate.h */,
+				9C8FD3FA1CE2D7320025637A /* AppDelegate.m */,
+				9C8FD3FB1CE2D7320025637A /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9C8FD3FE1CE2DA770025637A /* Common(公用类) */ = {
+			isa = PBXGroup;
+			children = (
+				9C8FD4111CE2E36C0025637A /* Category */,
+				9C8FD3FF1CE2DA770025637A /* Controller */,
+				9C8FD4061CE2DA770025637A /* Model */,
+				9C8FD4071CE2DA770025637A /* View */,
+			);
+			path = "Common(公用类)";
+			sourceTree = "<group>";
+		};
+		9C8FD3FF1CE2DA770025637A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C8FD4001CE2DA770025637A /* YKFenleiViewController.h */,
+				9C8FD4011CE2DA770025637A /* YKFenleiViewController.m */,
+				9C8FD4021CE2DA770025637A /* YKRootViewController.h */,
+				9C8FD4031CE2DA770025637A /* YKRootViewController.m */,
+				9CBBFEA31CE76026001588F9 /* YKDetailViewController.h */,
+				9CBBFEA41CE76026001588F9 /* YKDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C8FD4061CE2DA770025637A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CB986E91CE707130008799D /* YKStatuses.h */,
+				9CB986EA1CE707130008799D /* YKStatuses.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C8FD4071CE2DA770025637A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C8FD41E1CE2FC4B0025637A /* YKIconView.h */,
+				9C8FD41F1CE2FC4B0025637A /* YKIconView.m */,
+				9CB986E61CE707070008799D /* YKStarView.h */,
+				9CB986E71CE707070008799D /* YKStarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C8FD4111CE2E36C0025637A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9C8FD4211CE2FDCF0025637A /* NSString+YKExtension.h */,
+				9C8FD4221CE2FDCF0025637A /* NSString+YKExtension.m */,
+				9C8FD4231CE2FDCF0025637A /* UIView+YKExtension.h */,
+				9C8FD4241CE2FDCF0025637A /* UIView+YKExtension.m */,
+				9C8FD4121CE2E3B80025637A /* NSDate+Extension.h */,
+				9C8FD4131CE2E3B80025637A /* NSDate+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EFFD96A4C26DE9A8CF926B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6349980FFC1B7094BDDFB52 /* Pods-仿爱限免.debug.xcconfig */,
+				2021C64A40B57412944B8776 /* Pods-仿爱限免.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C3C62DC1CE06A4E0061B38A /* 仿爱限免 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3C62F41CE06A4E0061B38A /* Build configuration list for PBXNativeTarget "仿爱限免" */;
+			buildPhases = (
+				B9503A4C54AF40A327422D0B /* 📦 Check Pods Manifest.lock */,
+				9C3C62D91CE06A4E0061B38A /* Sources */,
+				9C3C62DA1CE06A4E0061B38A /* Frameworks */,
+				9C3C62DB1CE06A4E0061B38A /* Resources */,
+				9410582F5B5C15AA6367FE0E /* 📦 Embed Pods Frameworks */,
+				AB6935509982D8CDF30F53BB /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿爱限免";
+			productName = "仿爱限免";
+			productReference = 9C3C62DD1CE06A4E0061B38A /* 仿爱限免.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C3C62D51CE06A4E0061B38A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YK;
+				TargetAttributes = {
+					9C3C62DC1CE06A4E0061B38A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 54Y498954X;
+					};
+				};
+			};
+			buildConfigurationList = 9C3C62D81CE06A4E0061B38A /* Build configuration list for PBXProject "仿爱限免" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C3C62D41CE06A4E0061B38A;
+			productRefGroup = 9C3C62DE1CE06A4E0061B38A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C3C62DC1CE06A4E0061B38A /* 仿爱限免 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C3C62DB1CE06A4E0061B38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3C62ED1CE06A4E0061B38A /* Assets.xcassets in Resources */,
+				9C40ACEA1CF7EE2200AF23DE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9410582F5B5C15AA6367FE0E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿爱限免/Pods-仿爱限免-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6935509982D8CDF30F53BB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿爱限免/Pods-仿爱限免-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9503A4C54AF40A327422D0B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C3C62D91CE06A4E0061B38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8FD4261CE2FDCF0025637A /* UIView+YKExtension.m in Sources */,
+				9CAE5BC81CE5A3BC00240376 /* YKStatusFrame.m in Sources */,
+				9CB986F71CE71CCE0008799D /* YKSaleTableViewCell.m in Sources */,
+				9CB986FD1CE7208A0008799D /* YKFreeViewCell.m in Sources */,
+				9C8FD4251CE2FDCF0025637A /* NSString+YKExtension.m in Sources */,
+				9C54592B1CED8DAB0009B8A7 /* YKMyDownViewController.m in Sources */,
+				9C8FD4141CE2E3B80025637A /* NSDate+Extension.m in Sources */,
+				9C8FD3FD1CE2D7320025637A /* main.m in Sources */,
+				9C3C63231CE077360061B38A /* YKLimitViewController.m in Sources */,
+				9C3C63261CE077560061B38A /* YKSaleViewController.m in Sources */,
+				9CB986FA1CE71F0D0008799D /* YKFreeStatusFrame.m in Sources */,
+				9C8FD3F71CE2D6F90025637A /* YKUtility.m in Sources */,
+				9C5459251CED8D5A0009B8A7 /* YKMyAccountViewController.m in Sources */,
+				9C8FD4091CE2DA770025637A /* YKRootViewController.m in Sources */,
+				9C5459341CED8E210009B8A7 /* YKCanDouViewController.m in Sources */,
+				9C3C63291CE077640061B38A /* YKFreeViewController.m in Sources */,
+				9C8FD4081CE2DA770025637A /* YKFenleiViewController.m in Sources */,
+				9C5459281CED8D8F0009B8A7 /* YKMyFavViewController.m in Sources */,
+				9C8FD4201CE2FC4B0025637A /* YKIconView.m in Sources */,
+				9C66E0781CF53FE0000849E4 /* YKScrollPagingView.m in Sources */,
+				9C54591C1CED8CA30009B8A7 /* YKSetViewController.m in Sources */,
+				9C8FD3FC1CE2D7320025637A /* AppDelegate.m in Sources */,
+				9CBBFEA51CE76026001588F9 /* YKDetailViewController.m in Sources */,
+				9CB986E81CE707070008799D /* YKStarView.m in Sources */,
+				9CB986EB1CE707130008799D /* YKStatuses.m in Sources */,
+				9C3C632F1CE0782A0061B38A /* YKHotViewController.m in Sources */,
+				9C3C632C1CE078170061B38A /* YKSpecialViewController.m in Sources */,
+				9CB986F41CE71CC40008799D /* YKSaleStatusFrame.m in Sources */,
+				9CAE5BCB1CE5AB1300240376 /* YKStatusViewCell.m in Sources */,
+				9C54593D1CEDB5330009B8A7 /* YKMySetViewController.m in Sources */,
+				9C5459221CED8D1D0009B8A7 /* YKMyFollowViewController.m in Sources */,
+				9C5459311CED8E0C0009B8A7 /* YKMyHelpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C3C62F21CE06A4E0061B38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C3C62F31CE06A4E0061B38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C3C62F51CE06A4E0061B38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6349980FFC1B7094BDDFB52 /* Pods-仿爱限免.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/仿爱限免/PrefixHeader.pch";
+				INFOPLIST_FILE = "仿爱限免/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YK.WiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C3C62F61CE06A4E0061B38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2021C64A40B57412944B8776 /* Pods-仿爱限免.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/仿爱限免/PrefixHeader.pch";
+				INFOPLIST_FILE = "仿爱限免/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YK.WiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C3C62D81CE06A4E0061B38A /* Build configuration list for PBXProject "仿爱限免" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3C62F21CE06A4E0061B38A /* Debug */,
+				9C3C62F31CE06A4E0061B38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3C62F41CE06A4E0061B38A /* Build configuration list for PBXNativeTarget "仿爱限免" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3C62F51CE06A4E0061B38A /* Debug */,
+				9C3C62F61CE06A4E0061B38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C3C62D51CE06A4E0061B38A /* Project object */;
+}
