@@ -522,7 +522,7 @@
 				TargetAttributes = {
 					9C3C62DC1CE06A4E0061B38A = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 54Y498954X;
+						DevelopmentTeam = V5T362FM3J;
 					};
 				};
 			};
@@ -732,12 +732,13 @@
 			baseConfigurationReference = F6349980FFC1B7094BDDFB52 /* Pods-仿爱限免.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/仿爱限免/PrefixHeader.pch";
 				INFOPLIST_FILE = "仿爱限免/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YK.WiChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvxiaofan.LoveLimitFree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -747,12 +748,13 @@
 			baseConfigurationReference = 2021C64A40B57412944B8776 /* Pods-仿爱限免.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/仿爱限免/PrefixHeader.pch";
 				INFOPLIST_FILE = "仿爱限免/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YK.WiChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvxiaofan.LoveLimitFree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
